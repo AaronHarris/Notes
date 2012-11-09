@@ -1,6 +1,6 @@
-LA Ruby Meetup - November 2012
-11/7/2012
-Videos Posted to LA Ruby youtube channel: <http://www.youtube.com/user/LosAngelesRuby>
+# LA Ruby Meetup - November 2012  
+11/7/2012  
+Videos Posted to LA Ruby youtube channel: <http://www.youtube.com/user/LosAngelesRuby>  
 7:30, THH116
 
 # Executive Summary
