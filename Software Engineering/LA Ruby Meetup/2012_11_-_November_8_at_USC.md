@@ -12,32 +12,31 @@ A series of talks that will be given at each meetup going forward
 By Ron Evans, The Hybrid Group, @deadprogram  
 There are seven ways to write if statements / conditionals in Ruby
 
-1.  `if some_condition  
-      `&nbsp;&nbsp;`do something  
-    end`
-2.  `if some_condition  
-      `&nbsp;&nbsp;`do something  
-    else  
-      `&nbsp;&nbsp;`do something_else  
-    end`
-3.  `if some_condition  
-      `&nbsp;&nbsp;`do something  
-    elsif another_condition  
-      `&nbsp;&nbsp;`do something_else  
-    else  
-      `&nbsp;&nbsp;`do otherwise  
-    end`
-4.  `unless not_condition  
-      `&nbsp;&nbsp;`do something  
-    end`
+1.  <pre>if some_condition
+       do something
+    end</pre>
+2.  <pre>if some_condition
+       do something
+    else
+       do something_else
+    end</pre>
+3.  <pre>if some_condition
+      do something
+    elsif another_condition
+      do something_else
+    else
+      do otherwise
+    end</pre>
+4.  <pre>unless not_condition
+      do something  
+    end</pre>
     
     Now how do we make these more consice / better readable?
 
-5.  do something if some_condition
-6.  do something unless some_condition
-    - ie. raise "error" unless valid?
-7.  some_condition ? do_something_true : do_something_false
-    - ternary operator
+5.  `do something if some_condition`
+6.  `do something unless some_condition`
+  - ie. `raise "error" unless valid?`
+7.  `some_condition ? do_something_true : do_something_false` // ternary operator
 
 ### GitNesse: Acceptance Testing Using Cucumber & Git-wiki
 By Ron Evans, The Hybrid Group, @deadprogram
@@ -65,7 +64,7 @@ By Ron Evans, The Hybrid Group, @deadprogram
 
 <http://www.github.com/hybridgroup> - the organization for the projects mentioned above
 
-## JCOv: Coverage Testing your JavaScript
+## JCov: Coverage Testing your JavaScript
 By Doug McInnes, YP (Yellow Pages), dougmcinnes.com  
 <http://github.com/dmcinnes>  
 
@@ -80,7 +79,7 @@ By Doug McInnes, YP (Yellow Pages), dougmcinnes.com
 - Make ascii flowcharts using <http://asciiflow.com>
 - <http://github.com/yp-engineering>
 
-# Test-Driven Development: Write better code in less time
+## Test-Driven Development: Write better code in less time
 By Evan Dorn, Founder *Logical Reality Design*  
 <http://lrdesign.com>
 
@@ -126,8 +125,8 @@ By Evan Dorn, Founder *Logical Reality Design*
     - strinking in cyclomatic complexity - how many paths there are through the code
         - Every conditional in your program is another test you have to write
 
-- <http://destroyallsoftware.com> - video postcast subscription where guy teaches how to get good with tests
-- <http://solvemyword.com> - A project he worked on for his girlfriend, where he spend 1.5 hours trying to make the project on an airplane with no success (messy code, didn't work), then scrapped his project and started over test-first, has better and working code in 35 minutes.
+- <http://destroyallsoftware.com> is a video postcast subscription where guy teaches how to get good with tests
+- <http://solvemyword.com> A project he worked on for his girlfriend, where he spend 1.5 hours trying to make the project on an airplane with no success (messy code, didn't work), then scrapped his project and started over test-first, has better and working code in 35 minutes.
 
 ## Table Cloth
 By Robert Ross, aka [Bobby Tables](http://xkcd.com/327), Philosophie Software  
